@@ -9,7 +9,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173",  "http://127.0.0.1:5173", "https://job-application-tracker-nine-indol.vercel.app/", "https://job-application-tracker-six-zeta.vercel.app/"],
+    allow_origins=["http://localhost:5173",  "http://127.0.0.1:5173", "https://job-application-tracker-nine-indol.vercel.app/", "https://job-application-tracker-r6edxuypn-disandus-projects-ee155c9a.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
